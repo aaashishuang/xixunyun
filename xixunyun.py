@@ -4,9 +4,9 @@ import os
 
 # 配置开始
 user = os.environ["USER"]
-account = user.split(19070830108) # 账号
-password = user.split(Ws12345678) # 密码
-school_id = user.split(217) # 学校ID
+account = user.split( ) # 账号
+password = user.split( ) # 密码
+school_id = user.split( ) # 学校ID
 sign_gps = os.environ["SIGN_GPS"]  # 签到坐标（注意小数点取后6位）
 longitude = sign_gps.split(",")[0] # 经度
 latitude = sign_gps.split(",")[1] # 纬度
